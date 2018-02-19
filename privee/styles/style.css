@@ -1,0 +1,25 @@
+.contenue {
+    width: 100px;
+    height: 350px;
+    background-color: red;
+    margin-left: 8%;
+}
+
+.connexion {
+    width: 300px;
+    height: 160px;
+    background-color: red;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.blocaccueil {
+    width: 250px;
+    height:260px;
+    background-color: grey;
+    border: 1px dashed black;
+    float: left;
+    margin-left: 20%;
+    margin-top: 15%;
+
+}

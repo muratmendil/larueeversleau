@@ -1,0 +1,396 @@
+.imagefonction {
+    margin: 0; 
+}
+.imagefonction:hover {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1); 
+    -ms-transform: scale(1.1); 
+    -o-transform: scale(1.1); 
+    transform:rotate scale(1.1); 
+    -webkit-transition: all 0.4s ease-in-out; 
+-moz-transition: all 0.4s ease-in-out; 
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+
+.btn-hot {
+color: #fff;
+background-color: #db5566;
+border-bottom:2px solid #af4451;
+}
+
+.btn-hot:hover, .btn-sky.active:focus, .btn-hot:focus, .open>.dropdown-toggle.btn-hot {
+color: #fff;
+background-color: #df6a78;
+border-bottom:2px solid #b25560;
+outline: none;
+}
+
+.fairedon {
+    float: left !important;
+    color: white !important;
+}
+.modeaccessibilite {
+    margin-left: 50%;
+    background-color: #E6E1E1;
+    float: right !important;
+}
+body {
+    background-color: black;
+}
+
+
+.contenue {
+    width: 87%;
+    height: auto;
+    margin-top: 80px;
+    background-color: black !important;
+    margin-left: 7%;
+    color: white !important;
+} 
+.blocslider {
+    height: auto;
+    background-color: black;
+}
+.blocfb {
+    height: 590px;
+    background-color: black !important;
+    /* margin-left: 30px; */
+    margin-right: none;
+    border: 1px dashed black;
+}
+.actu{
+    width: 100%;
+    height: auto;
+    background-color: #E0E0E0;
+    margin-top: 5%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.blocactu {
+    width: 25%;
+    height: 25%;
+    background-color: green;
+}
+.realisation {
+    /* width: 100%; */
+    height: auto;
+    background-color: black !important;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white !important;
+}
+.blocrealisation {
+   /* width: 250px; */
+    height:260px;
+    background-color: black !important;
+    color: white !important;
+    margin: auto; 
+   /* border: 1px dashed black; */
+}
+.enchiffre {
+    width: 100%;
+    height:auto;
+    background-color: black !important;
+    color: white !important;
+    margin-top: 20px; 
+   /* border-bottom: 2px solid black; */
+}
+.blocenchiffre {
+   /* width: 300px; */
+    height:270px;
+    background-color: white;
+    margin: auto;
+    /* border: 1px dashed black; */
+}
+
+.col-lg-12 {
+    background-color: black !important;
+    color: white !important;
+}
+
+.col-lg-6 {
+    background-color: black !important;
+    color: white !important;
+}
+.col-lg-5 {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+.col-lg-4 {
+    background-color: black !important;
+    color: white !important;
+}
+
+.panel {
+     background-color: black !important;
+     color: white !important;
+}
+
+.col-md-12 {
+     background-color: black !important;
+     color: white !important;
+}
+
+.well {
+     background-color: black !important;
+     color: white !important;
+}
+
+
+
+.terrain {
+    /* width: 100%; */
+    height: auto;
+    background-color: #E0E0E0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.rappelle {
+    /* width: 100%; */
+    height: auto;
+    background-color: #fdc900;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* PAGE A PROPOS */
+.blocimage {
+    text-align: center;
+}
+
+/* PAGE A EVENEMENT */
+.alert {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+.jumbotron {
+    background-color: white !important;
+    color: black !important;
+}
+.jumbotron-sm {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+/* FOOTER */
+.footer {
+    width: 83.1%;
+    height: 20px;
+    margin-top: 15%;
+    margin-left: 8%;
+    height: auto;
+    background: red;
+    font-size: 16px;
+}
+
+
+    .title-widget {
+    color: black !important;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+    padding-left: 28px;
+}
+.title-widget::before {
+    background-color: #ea5644;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+.footer-bottom {
+    background-color: black !important;
+    min-height: 30px;
+    width: 100%;
+    color: white !important;
+}
+.footer1 {
+    padding-top: 40px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+    background-color: black !important; 
+    color: white !important;
+}
+
+.footer-bottom {
+    background-color: white !important; 
+    min-height: 30px;
+    width: 100%;
+    color: black !important;
+}
+.copyright {
+    color: black !important;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: black !important;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+
+/* MENUUU */
+.menu {
+    /*width: 83.4%; */
+    width: 87%;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+    height: auto; 
+}
+
+.centermenu {
+    height: auto;
+}
+
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+
+/*Style for menu links*/
+li a {
+    display:block;
+    width:145px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black !important;
+    background: white !important;
+    text-decoration: none;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+    background: #19c589;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 800px){
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+        float: none;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+    .menu {
+    width: 83.4%;
+    margin: 0% 8% 0% 8%;
+    float: none;
+    height: auto;
+    background: white;  
+    }
+
+}
